@@ -1,0 +1,9 @@
+*Product
+*Rental
+ - rentalItem 
+*User (Admin, user)
+Cart
+ - CartItem
+ 
+ review
+ category

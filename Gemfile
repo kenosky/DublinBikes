@@ -41,5 +41,25 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  
+  #New gems
+  gem 'bootstrap-sass', '~> 3.3.5.1'
+  gem 'carrierwave', '~> 0.10.0'
+  gem 'mini_magick', '~> 4.2.7'
+  gem 'devise', '~> 3.5.1'
+  gem 'country_select', '~> 2.2.0'
+  
+  group :test do
+    gem 'minitest-rails', '~> 2.2.0'
+  end
+  
+  group :development do
+    gem 'html2haml'
+  end
+  
+  group :development, :test do
+    gem 'pry-rails'
+  end
+    
+  
 end
-
