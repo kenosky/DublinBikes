@@ -44,7 +44,7 @@ group :development, :test do
   
   #New gems
   gem 'bootstrap-sass', '~> 3.3.5.1'
-  gem 'carrierwave', '~> 0.10.0'
+  gem 'carrierwave', '~> 1.3.2'
   gem 'mini_magick', '~> 4.2.7'
   gem 'devise', '~> 3.5.1'
   gem 'country_select', '~> 2.2.0'
